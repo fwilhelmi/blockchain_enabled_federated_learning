@@ -98,35 +98,35 @@ The simulation parameters used in the publication are as follows:
 In what follows, we present the results presented in the manuscript. First, we refer to the Blockchain queuing delay analysis, where we assess the sensitivity of the Blockchain on various parameters, including the block size, the mining rate, the traffic intensity, or the miners' communication capacity.
 
 <p align="center">
-<img src="Figures/2_Blockchain_delays/1_mean_occupancy_delay_2.png" alt="" width="600"/>
+<img src="Figures/2_Blockchain_delays/1_mean_occupancy_delay_2.png" alt="" width="500"/>
 </p>
 
 <p align="center">
-<img src="Figures/2_Blockchain_delays/0_block_size_delay.png" alt="" width="600"/>
+<img src="Figures/2_Blockchain_delays/0_block_size_delay.png" alt="" width="500"/>
 </p>
 
 Next, we provide a broader vision of the Blockchain transaction confirmation latency by including other delays different than the queuing delay, such as transaction upload, block generation, or block propagation.
 
 <p align="center">
-<img src="Figures/2_Blockchain_delays/4_transaction_confirmation_delay_3.png" alt="" width="600"/>
+<img src="Figures/2_Blockchain_delays/4_transaction_confirmation_delay_3.png" alt="" width="500"/>
 </p>
 
 <p align="center">
-<img src="Figures/2_Blockchain_delays/0_Tbc.png" alt="" width="600"/>
+<img src="Figures/2_Blockchain_delays/0_Tbc.png" alt="" width="500"/>
 </p>
 
 Finally, we present the results obtained for the evaluation of s-FLchain and a-FLchain in terms of learning accuracy and learning completion time:
 
 <p align="center">
-<img src="Figures/3_FL_accuracy/1_evaluation_accuracy.png" alt="" width="400"/>
+<img src="Figures/3_FL_accuracy/1_evaluation_accuracy.png" alt="" width="500"/>
 </p>
 
 <p align="center">
-<img src="Figures/3_FL_accuracy/IID/eval_accuracy_time_iid.png" alt="" width="400"/>
+<img src="Figures/3_FL_accuracy/IID/eval_accuracy_time_iid.png" alt="" width="850"/>
 </p>
 
 <p align="center">
-<img src="Figures/3_FL_accuracy/nonIID/num_classes_3/eval_accuracy_time.png" alt="" width="400"/>
+<img src="Figures/3_FL_accuracy/nonIID/num_classes_3/eval_accuracy_time.png" alt="" width="850"/>
 </p>
 
 
