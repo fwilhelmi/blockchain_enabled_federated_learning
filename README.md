@@ -126,7 +126,7 @@ Finally, we present the results obtained for the evaluation of s-FLchain and a-F
 </p>
 
 <p align="center">
-<img src="Figures/FL_accuracy/nonIID/eval_accuracy_time.png" alt="" width="400"/>
+<img src="Figures/FL_accuracy/nonIID/num_classes_3/eval_accuracy_time.png" alt="" width="400"/>
 </p>
 
 
