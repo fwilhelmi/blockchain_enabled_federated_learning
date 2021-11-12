@@ -59,35 +59,18 @@ Content:
 
 ## Performance Evaluation
 
-
-
 ### Simulation parameters
 
-<p align="center">
-<img src="Figures/random_deployment.png" alt="Simulation scenario." width="500"/>
-</p>
-
-The following Table summarizes the characteristics of the considered simulation scenario:
-
-| **Parameter**          | **Value**        		  |
-|------------------------|----------------------------|
-| Number of BS/UE        | 19 / 200          		  |
-| Cell radius            | 10 m                       |
-| Simulation duration    | 300 s                      |
-
-
-### Simulation configuration
-
-In order to characterize the testbed deployment through simulations, we have used the Blockchain-enabled RAN sharing simulator developed in Matlab, which can be found [here](https://bitbucket.org/francesc_wilhelmi/blockchain_ran_sharing_simulator/src/master/) (commit: a8e0719). The simulation parameters used in the publication are as follows:
+The simulation parameters used in the publication are as follows:
 
 |         | **Parameter**                         | **Value**            |
-|---------|--------------------------------------------------------------|
+|---------|---------------------------------------|----------------------|
 |         | Number of miners                      | 19          		     |
 |         | Transaction size                      | 5 kbits              |
 | **BC**  | Block header size                     | 20 kbits             |
 |         | Max. waiting time                     | 1000 seconds         |
 |         | Queue length                          | 1000 packets         |
-|---------|--------------------------------------------------------------|
+|---------|---------------------------------------|----------------------|
 |         | Min/max distance Client-BS            | 0/4.15 meters        |
 |         | Bandwidth.                            | 180 kHz              |
 |         | Min/max distance Client-BS            | 2 GHz                |
@@ -98,7 +81,7 @@ In order to characterize the testbed deployment through simulations, we have use
 |         | Obstacles factor (γ)                  | 30                   |   
 |         | Ground noise                          | -95 dBm              |    
 |         | Capacity P2P links                    | 5 Mbps               | 
-|---------|--------------------------------------------------------------|
+|---------|---------------------------------------|----------------------|
 |         | Learning algorithm                    | Neural Network       |
 |         | Number of hidden layers               | 2                    |
 |         | Activation function                   | ReLU                 |
