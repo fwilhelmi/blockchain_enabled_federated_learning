@@ -118,15 +118,15 @@ Next, we provide a broader vision of the Blockchain transaction confirmation lat
 Finally, we present the results obtained for the evaluation of s-FLchain and a-FLchain in terms of learning accuracy and learning completion time:
 
 <p align="center">
-<img src="Figures/FL_accuracy/new_accuracy.png" alt="" width="400"/>
+<img src="Figures/3_FL_accuracy/1_evaluation_accuracy.png" alt="" width="400"/>
 </p>
 
 <p align="center">
-<img src="Figures/FL_accuracy/IID/eval_accuracy_time_iid.png" alt="" width="400"/>
+<img src="Figures/3_FL_accuracy/IID/eval_accuracy_time_iid.png" alt="" width="400"/>
 </p>
 
 <p align="center">
-<img src="Figures/FL_accuracy/nonIID/num_classes_3/eval_accuracy_time.png" alt="" width="400"/>
+<img src="Figures/3_FL_accuracy/nonIID/num_classes_3/eval_accuracy_time.png" alt="" width="400"/>
 </p>
 
 
