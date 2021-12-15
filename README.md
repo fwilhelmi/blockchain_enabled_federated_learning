@@ -1,7 +1,7 @@
 # blockchain_enabled_federated_learning
 Simulation-based performance analysis of server-less Blockchain-enabled Federated Learning
 
-# Blockchain-enabled RAN Sharing for O-RAN #
+# Blockchain-enabled Server-less Federated Learning #
 
 ## Table of Contents
 - [Authors](#authors)
@@ -14,21 +14,22 @@ Simulation-based performance analysis of server-less Blockchain-enabled Federate
 
 ## Authors
 * [Francesc Wilhelmi](https://fwilhelmi.github.io/)
-* [Paolo Dini](http://www.cttc.es/people/pdini/)
 * [Lorenza Giupponi](http://www.cttc.es/people/lgiupponi/)
+* [Paolo Dini](http://www.cttc.es/people/pdini/)
 
 ## Abstract
-Motivated by the heterogeneous nature of devices participating in large-scale Federated Learning (FL) optimization, we focus on an asynchronous server-less FL solution empowered by Blockchain (BC) technology. In contrast to mostly adopted FL approaches, which assume synchronous operation, we advocate for an asynchronous method whereby model aggregation is done as clients submit their local updates. The asynchronous setting fits in well with the federated optimization idea in practical large-scale settings with heterogeneous clients, thus potentially leading to higher efficiency in terms of communication overhead and idle periods. To evaluate the BC-enabled FL solution in terms of learning completion delay, we provide an analytical model based on batch service queue theory. Based on this model, we provide simulation results to assess the feasibility of both synchronous and asynchronous mechanisms in different situations. Important aspects involved in the BC-enabled FL optimization, such as the network size, link capacity, or user requirements, are put together and analyzed.
+Motivated by the heterogeneous nature of devices participating in large-scale Federated Learning (FL) optimization, we focus on an asynchronous server-less FL solution empowered by Blockchain (BC) technology. In contrast to mostly adopted FL approaches, which assume synchronous operation, we advocate an asynchronous method whereby model aggregation is done as clients submit their local updates. The asynchronous setting fits well with the federated optimization idea in practical large-scale settings with heterogeneous clients. Thus, it potentially leads to higher efficiency in terms of communication overhead and idle periods. To evaluate the learning completion delay of BC-enabled FL, we provide an analytical model based on batch service queue theory. Furthermore, we provide simulation results to assess the performance of both synchronous and asynchronous mechanisms. Important aspects involved in the BC-enabled FL optimization, such as the network size, link capacity, or user requirements, are put together and analyzed. As our results show, the synchronous setting leads to higher prediction accuracy than the asynchronous case. Nevertheless, asynchronous federated optimization provides much lower latency in many cases, thus becoming an appealing FL solution when dealing with large data sets, tough timing constraints (e.g., near-real-time applications), or highly varying training data.
 
 ## Repository description
 This repository contains the resources used to generate the results included in the paper entitled "Blockchain-enabled Server-less Federated Learning". The files included in this repository are:
 
 1. LaTeX files: contains the files used to generate the manuscript.
-2. Batch service queue: scripts used to execute the Blockchain queuing delay simulations through the [batch-service queue simulator](https://github.com/fwilhelmi/batch_service_queue_simulator).
-3. TensorFlow code: python scripts used to execute the FL mechanisms through [TensorFlowFederated](https://www.tensorflow.org/federated).
-4. Matlab code: matlab scripts used to process the results and plot the figures included in the manuscript.
-5. Outputs: files containing the outputs from the different resources (queue simulator, TFF).
-6. Figures: figures included in the manuscript and others with preliminary results.
+2. Code/Results: scripts and code used to generate the results included in the paper.
+ 2.1. TensorFlow code: python scripts used to execute the FL mechanisms through [TensorFlowFederated](https://www.tensorflow.org/federated).
+ 2.2. Matlab code: matlab scripts used to process the results and plot the figures included in the manuscript.
+ 2.3. Outputs: files containing the outputs from the different resources (queue simulator, TFF).
+ 2.4. Figures: figures included in the manuscript and others with preliminary results.
+
 
 ## Usage
 
