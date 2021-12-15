@@ -3,6 +3,10 @@ Simulation-based performance analysis of server-less Blockchain-enabled Federate
 
 # Blockchain-enabled Server-less Federated Learning #
 
+<p align="center">
+<img src="LaTeX files/img/blockchain_federated_learning2.pdf" alt="" width="500"/>
+</p>
+
 ## Table of Contents
 - [Authors](#authors)
 - [Publication's abstract](#abstract)
@@ -24,11 +28,13 @@ Motivated by the heterogeneous nature of devices participating in large-scale Fe
 This repository contains the resources used to generate the results included in the paper entitled "Blockchain-enabled Server-less Federated Learning". The files included in this repository are:
 
 1. LaTeX files: contains the files used to generate the manuscript.
-2. Code/Results: scripts and code used to generate the results included in the paper.
- 2.1. TensorFlow code: python scripts used to execute the FL mechanisms through [TensorFlowFederated](https://www.tensorflow.org/federated).
- 2.2. Matlab code: matlab scripts used to process the results and plot the figures included in the manuscript.
- 2.3. Outputs: files containing the outputs from the different resources (queue simulator, TFF).
- 2.4. Figures: figures included in the manuscript and others with preliminary results.
+2. Code & Results: scripts and code used to generate the results included in the paper.
+
+- Queue code: scripts used to execute the Blockchain queuing delay simulations through the [batch-service queue simulator](https://github.com/fwilhelmi/batch_service_queue_simulator).
+- TensorFlow code: python scripts used to execute the FL mechanisms through [TensorFlowFederated](https://www.tensorflow.org/federated).
+- Matlab code: matlab scripts used to process the results and plot the figures included in the manuscript.
+- Outputs: files containing the outputs from the different resources (queue simulator, TFF).
+- Figures: figures included in the manuscript and others with preliminary results.
 
 
 ## Usage
@@ -66,7 +72,7 @@ The simulation parameters used in the publication are as follows:
 
 |         | **Parameter**                         | **Value**            |
 |---------|---------------------------------------|----------------------|
-|         | Number of miners                      | 19          		     |
+|         | Number of miners                      | 19          	     |
 |         | Transaction size                      | 5 kbits              |
 | **BC**  | Block header size                     | 20 kbits             |
 |         | Max. waiting time                     | 1000 seconds         |
@@ -99,35 +105,35 @@ The simulation parameters used in the publication are as follows:
 In what follows, we present the results presented in the manuscript. First, we refer to the Blockchain queuing delay analysis, where we assess the sensitivity of the Blockchain on various parameters, including the block size, the mining rate, the traffic intensity, or the miners' communication capacity.
 
 <p align="center">
-<img src="Figures/2_Blockchain_delays/1_mean_occupancy_delay_2.png" alt="" width="500"/>
+<img src="Code & Results/Figures/2_Blockchain_delays/1_mean_occupancy_delay_2.png" alt="" width="500"/>
 </p>
 
 <p align="center">
-<img src="Figures/2_Blockchain_delays/0_block_size_delay.png" alt="" width="500"/>
+<img src="Code & Results/Figures/2_Blockchain_delays/0_block_size_delay.png" alt="" width="500"/>
 </p>
 
 Next, we provide a broader vision of the Blockchain transaction confirmation latency by including other delays different than the queuing delay, such as transaction upload, block generation, or block propagation.
 
 <p align="center">
-<img src="Figures/2_Blockchain_delays/4_transaction_confirmation_delay_3.png" alt="" width="500"/>
+<img src="Code & Results/Figures/2_Blockchain_delays/4_transaction_confirmation_delay_3.png" alt="" width="500"/>
 </p>
 
 <p align="center">
-<img src="Figures/2_Blockchain_delays/0_Tbc.png" alt="" width="500"/>
+<img src="Code & Results/Figures/2_Blockchain_delays/0_Tbc.png" alt="" width="500"/>
 </p>
 
 Finally, we present the results obtained for the evaluation of s-FLchain and a-FLchain in terms of learning accuracy and learning completion time:
 
-<p align="center">
+<p align="Code & Results/center">
 <img src="Figures/3_FL_accuracy/1_evaluation_accuracy.png" alt="" width="500"/>
 </p>
 
 <p align="center">
-<img src="Figures/3_FL_accuracy/IID/eval_accuracy_time_iid.png" alt="" width="850"/>
+<img src="Code & Results/Figures/3_FL_accuracy/IID/eval_accuracy_time_iid.png" alt="" width="850"/>
 </p>
 
 <p align="center">
-<img src="Figures/3_FL_accuracy/nonIID/num_classes_3/eval_accuracy_time.png" alt="" width="850"/>
+<img src="Code & Results/Figures/3_FL_accuracy/nonIID/num_classes_3/eval_accuracy_time.png" alt="" width="850"/>
 </p>
 
 
