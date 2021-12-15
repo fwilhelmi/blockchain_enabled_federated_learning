@@ -1,10 +1,19 @@
 # blockchain_enabled_federated_learning
 Simulation-based performance analysis of server-less Blockchain-enabled Federated Learning
 
+''BibTeX'' citation:
+
+@article{wilhelmi2021blockchain,
+  title={Blockchain-enabled Server-less Federated Learning},
+  author={Wilhelmi, Francesc, Giupponi, Lorenza and Dini, Paolo},
+  journal={arXiv preprint arXiv:2107.02005},
+  year={2021}
+}
+
 # Blockchain-enabled Server-less Federated Learning #
 
 <p align="center">
-<img src="LaTeX files/img/blockchain_federated_learning2.pdf" alt="" width="500"/>
+<img src="LaTeX files/img/blockchain_federated_learning2.png" alt="" width="500"/>
 </p>
 
 ## Table of Contents
