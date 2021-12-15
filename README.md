@@ -3,12 +3,14 @@ Simulation-based performance analysis of server-less Blockchain-enabled Federate
 
 ''BibTeX'' citation:
 
+```
 @article{wilhelmi2021blockchain,
   title={Blockchain-enabled Server-less Federated Learning},
   author={Wilhelmi, Francesc, Giupponi, Lorenza and Dini, Paolo},
   journal={arXiv preprint arXiv:2107.02005},
   year={2021}
 }
+```
 
 # Blockchain-enabled Server-less Federated Learning #
 
@@ -114,11 +116,11 @@ The simulation parameters used in the publication are as follows:
 In what follows, we present the results presented in the manuscript. First, we refer to the Blockchain queuing delay analysis, where we assess the sensitivity of the Blockchain on various parameters, including the block size, the mining rate, the traffic intensity, or the miners' communication capacity.
 
 <p align="center">
-<img src="Code & Results/Figures/2_Blockchain_delays/1_mean_occupancy_delay_2.png" alt="" width="500"/>
+<img src="Code & Results/Figures/2_Blockchain_delays/1_mean_occupancy_delay_2.png" alt="" width="380"/>
 </p>
 
 <p align="center">
-<img src="Code & Results/Figures/2_Blockchain_delays/0_block_size_delay.png" alt="" width="500"/>
+<img src="Code & Results/Figures/2_Blockchain_delays/0_block_size_delay.png" alt="" width="400"/>
 </p>
 
 Next, we provide a broader vision of the Blockchain transaction confirmation latency by including other delays different than the queuing delay, such as transaction upload, block generation, or block propagation.
