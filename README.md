@@ -1,5 +1,6 @@
-# blockchain_enabled_federated_learning
-Simulation-based performance analysis of server-less Blockchain-enabled Federated Learning
+# Blockchain-enabled Server-less Federated Learning #
+
+Repository containing the files used to reproduce the results of the publication "Blockchain-enabled Server-less Federated Learning".
 
 ''BibTeX'' citation:
 
@@ -11,9 +12,6 @@ Simulation-based performance analysis of server-less Blockchain-enabled Federate
   year={2021}
 }
 ```
-
-# Blockchain-enabled Server-less Federated Learning #
-
 <p align="center">
 <img src="LaTeX files/img/blockchain_federated_learning2.png" alt="" width="500"/>
 </p>
