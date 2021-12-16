@@ -8,7 +8,8 @@ Repository containing the files used to reproduce the results of the publication
 @article{wilhelmi2021blockchain,
   title={Blockchain-enabled Server-less Federated Learning},
   author={Wilhelmi, Francesc, Giupponi, Lorenza and Dini, Paolo},
-  journal={arXiv preprint arXiv:2107.02005},
+  journal={arXiv preprint arXiv:2112.07938
+},
   year={2021}
 }
 ```
