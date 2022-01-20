@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this content, please cite it as below."
+authors:
+- family-names: "Wilhelmi"
+  given-names: "Francesc"
+  orcid: "https://orcid.org/0000-0003-3936-535X"
+- family-names: "Giupponi"
+  given-names: "Lorenza"
+  orcid: "https://orcid.org/0000-0003-3321-4761"
+- family-names: "Dini"
+  given-names: "Paolo"
+  orcid: "https://orcid.org/0000-0001-6756-0289"
+title: "Blockchain-enabled Server-less Federated Learning"
+version: 1.0.0
+date-released: 2021-12-21
+url: "https://github.com/fwilhelmi/blockchain_enabled_federated_learning"
+preferred-citation:
+  type: article
+  authors:
+ - family-names: "Wilhelmi"
+  given-names: "Francesc"
+  orcid: "https://orcid.org/0000-0003-3936-535X"
+- family-names: "Giupponi"
+  given-names: "Lorenza"
+  orcid: "https://orcid.org/0000-0003-3321-4761"
+- family-names: "Dini"
+  given-names: "Paolo"
+  orcid: "https://orcid.org/0000-0001-6756-0289"  
+  journal: "https://arxiv.org/abs/2112.07938"
+  title: "Blockchain-enabled Server-less Federated Learning
+"
+  year: 2021
