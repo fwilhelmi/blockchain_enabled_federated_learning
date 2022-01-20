@@ -26,6 +26,6 @@ preferred-citation:
 - family-names: "Dini"
   given-names: "Paolo"
   orcid: "https://orcid.org/0000-0001-6756-0289"  
-  journal: "https://arxiv.org/abs/2112.07938"
-  title: "Blockchain-enabled Server-less Federated Learning"
-  year: 2021
+journal: "https://arxiv.org/abs/2112.07938"
+title: "Blockchain-enabled Server-less Federated Learning"
+year: 2021
