@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="25c4c091-3f52-4e33-aced-1ad2759c006d" name="ssh iesc - comnnet">
+        <fileTransfer accessType="SFTP" host="iesc-gpu.cttc.es" port="22" sshConfigId="f0b1951d-ddb2-4768-89c0-3fc498fa7c73" sshConfig="ssh iesc">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

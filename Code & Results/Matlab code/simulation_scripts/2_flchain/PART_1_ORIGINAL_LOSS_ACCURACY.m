@@ -9,15 +9,14 @@ num_rounds = 200;
 upper_bound_accuray = 0.9594;
 lower_bound_loss = 0.1352;
 
-root_folder_1 = 'sync_vs_async/num_classes_10';
-root_folder_2 = 'sync_vs_async/num_classes_3';
+root_folder_1 = 'sync_vs_async_emnist/num_classes_10';
+root_folder_2 = 'sync_vs_async_emnist/num_classes_3';
 
 %% EVAL. ACCURACY
 f = figure;
 f.Position = [300 300 780 200];
 results_bar = cell(1, length(users));
 results_bar_noniid = cell(1, length(users));
-pwd
 for k = 1 : length(users)      
     results = [];
     results_noniid = [];
@@ -67,7 +66,7 @@ for k = 1 : length(users)
     set(gca, 'fontsize', 16)
 end
 legend({'Async (10%)','Async (25%)','Async (50%)','Async (75%)','Sync','Centr.'})
-save_figure( f, 'eval_accuracy', 'figures/' )
+% save_figure( f, 'eval_accuracy', 'figures/' )
 
 %% Last 50 iterations
 f11 = figure;
@@ -93,14 +92,14 @@ for i = 1:nbars
 end
 grid on
 grid minor
-load('mean_bar_data.mat')
+%load('mean_bar_data.mat')
 plot(0:5, upper_bound_accuray*ones(1,6), 'k--','linewidth',2.0)
 ylabel('Mean eval. accuracy')
 xlabel('Num. clients, K')
 legend({'','','','','','Async (10%)','Async (25%)','Async (50%)','Async (75%)',...
     'Sync','','','','','','Centr.'})
 set(gca, 'fontsize', 16)
-save_figure( f11, 'mean_eval_accuracy', 'figures/' )
+% save_figure( f11, 'mean_eval_accuracy', 'figures/' )
 
 %% OTHER PLOTS THAT HAVE NOT BEEN INCLUDED (COMMENTED)
 % %% All 200 iterations
